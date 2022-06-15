@@ -64,7 +64,7 @@ export default class Game extends React.Component {
       });
       let status;
       if(winner!=null){
-        status="Winner is "+winner+" Congratulations boi!!!!!";
+        status="Winner is "+winner+" Congratulations!!!!!";
       }else{
       status = 'Next player: '+(this.state.xIsNext ? 'X' : 'O');
       }
