@@ -29,15 +29,15 @@ ol, ul {
   background: #fff;
   border: 1px solid #999;
   float: left;
-  font-size: 24px;
+  font-size: 50px;
   font-weight: bold;
   line-height: 34px;
-  height: 34px;
+  height: 80px;
   margin-right: -1px;
   margin-top: -1px;
   padding: 0;
   text-align: center;
-  width: 34px;
+  width: 80px;
 }
 
 .square:focus {
@@ -51,8 +51,29 @@ ol, ul {
 .game {
   display: flex;
   flex-direction: row;
+  background-color: #ddd;
+ 
 }
 
 .game-info {
   margin-left: 20px;
+  flex: 1;
+}
+
+.game-board{
+  margin-left: 15cm;
+  flex: 1;
+}
+
+.game-title{
+  text-align: center;
+  margin: 20px;
+  font-size: 50px;
+  background-color: antiquewhite;
+}
+
+
+.game-status{
+  margin-bottom: 20px;
+  font-weight: bold;
 }

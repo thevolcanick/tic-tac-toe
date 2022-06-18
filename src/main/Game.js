@@ -70,15 +70,19 @@ export default class Game extends React.Component {
       }
       
       return (
+        <div>
+          <div className="game-title"> TicTacToe Game</div>
+          
         <div className="game">
           <div className="game-board">
+          <div className="game-status">{status}</div>
             <Board squares={current.squares} prev={prev.squares}
               onClick={(i) => this.handleClick(i)}/>
           </div>
           <div className="game-info">
-            <div>{status}</div>
             <ol>{moves}</ol>
           </div>
+        </div>
         </div>
       );
     }
