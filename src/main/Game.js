@@ -80,6 +80,7 @@ export default class Game extends React.Component {
               onClick={(i) => this.handleClick(i)}/>
           </div>
           <div className="game-info">
+            <h1 className="moves">Moves Played</h1>
             <ol>{moves}</ol>
           </div>
         </div>

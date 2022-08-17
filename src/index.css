@@ -52,7 +52,7 @@ ol, ul {
   display: flex;
   flex-direction: row;
   background-color: #ddd;
- 
+ height:80vh
 }
 
 .game-info {
